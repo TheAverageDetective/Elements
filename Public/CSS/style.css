@@ -1,0 +1,96 @@
+/*
+    Setup
+*/
+
+html {
+    background-color: black;
+    color: whitesmoke;
+}
+
+#root>* {
+    background-color: black;
+    color: whitesmoke;
+}
+
+::selection {
+    background-color: yellowgreen;
+}
+
+@font-face {
+    font-family: TitleFont;
+    src: url("../Fonts/Ava-EaRRg.ttf");
+}
+
+@font-face {
+    font-family: IntroFont;
+    src: url("../Fonts/LoftygoalsRegular-9Y5Xy.otf");
+}
+
+@font-face {
+    font-family: InfoFont;
+    src: url("../Fonts/SunnyspellsRegular-MV9ze.otf");
+}
+
+@font-face {
+    font-family: Senja;
+    src: url("../Fonts/SenjaSantuy-yw5qq.otf");
+}
+
+@font-face {
+    font-family: HeadingFont;
+    src: url("../Fonts/Library3am-5V3Z.otf");
+}
+
+::-webkit-scrollbar {
+    background-color: black;
+    width: 1vw;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(127, 255, 212, 0.5);
+    border-radius: 0.5vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: aqua;
+}
+
+
+/*
+    Page Styles
+*/
+
+
+#navbar {
+    padding-left: 2vw;
+    padding-right: 2vw;
+    top: 0;
+    z-index: 5;
+}
+
+[class*="section"] {
+    min-height: 80vh;
+    user-select: text;
+}
+
+.artistImage {
+    height: 60vh;
+    border-radius: 20px;
+}
+
+[class*="ArtistName"] {
+    font-family: Senja;
+}
+
+[class*="getTicket"]{
+    background-color: goldenrod;
+    color: white; border: none;
+    border-radius: 5px;
+    height: 3em; width: 10em;
+}
+
+[class*="getTicket"]:hover{
+    background-color: rgba(255, 217, 0, 0.5);
+}
+
+#email:hover{color: chartreuse;}
