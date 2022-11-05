@@ -6,8 +6,8 @@ import { OutOfTickets } from "./Tickets";
 
 const app = createRoot(document.getElementById("root"))
 
-var r = createRoot(document.getElementById("tickets"))
 function purchaseTicket () {
+    var r = ! r ? createRoot(document.getElementById("tickets")) : r
     r.render(<OutOfTickets />)
     document.getElementById("tickets").scrollIntoView()
 }

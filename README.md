@@ -12,3 +12,7 @@ The script files are already compiled and are in `/Public/JS`
 The `script.bundle.js` in `/Public/JS` in  is the compiled script, and others are the raw script files
 
 You can see this website live at https://elements.anmol.pro
+or 
+https://elements.gigipopi.repl.co
+
+Thank you.
