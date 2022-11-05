@@ -4,12 +4,10 @@ import Navbar from "./Navbar";
 import Content from "./Content";
 import { OutOfTickets } from "./Tickets";
 
-import * as B from "../Modules/bootstrap"
-
 const app = createRoot(document.getElementById("root"))
 
+var r = createRoot(document.getElementById("tickets"))
 function purchaseTicket () {
-    var r = createRoot(document.getElementById("tickets"))
     r.render(<OutOfTickets />)
     document.getElementById("tickets").scrollIntoView()
 }
